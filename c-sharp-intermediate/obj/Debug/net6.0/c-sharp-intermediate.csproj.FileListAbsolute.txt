@@ -1,0 +1,15 @@
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\bin\Debug\net6.0\c-sharp-intermediate.exe
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\bin\Debug\net6.0\c-sharp-intermediate.deps.json
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\bin\Debug\net6.0\c-sharp-intermediate.runtimeconfig.json
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\bin\Debug\net6.0\c-sharp-intermediate.dll
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\bin\Debug\net6.0\c-sharp-intermediate.pdb
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.csproj.AssemblyReference.cache
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.AssemblyInfoInputs.cache
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.AssemblyInfo.cs
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.csproj.CoreCompileInputs.cache
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.dll
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\refint\c-sharp-intermediate.dll
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.pdb
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\c-sharp-intermediate.genruntimeconfig.cache
+C:\Users\nthuy\Desktop\ASP.NET Core\c-sharp-intermediate\c-sharp-intermediate\obj\Debug\net6.0\ref\c-sharp-intermediate.dll
