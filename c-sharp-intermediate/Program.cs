@@ -4,15 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        var customer = new Customer(1, "John");
-        customer.Orders.Add(new Order());
-        customer.Orders.Add(new Order());
-
-        // this will reinitialize the Orders field, we will lost the orders that was added above
-        // => we don't want the Orders field be assigned multiple time => use readonly for it
-        customer.Promote();
-
-        Console.WriteLine(customer.Orders.Count);
+        var person = new Person();
+        person.SetBirthDate(new DateTime(1999, 10, 20));
+        Console.WriteLine(person.GetBirthDate());
     }
 
     static void UsePoint()
