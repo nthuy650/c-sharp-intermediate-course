@@ -4,13 +4,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        //UsePoint();
-        //UseParams();
+        var customer = new Customer(1, "John");
+        customer.Orders.Add(new Order());
+        customer.Orders.Add(new Order());
 
-        int result;
-        var myNumber = int.TryParse("123", out result);
-        Console.WriteLine(myNumber);
-        Console.WriteLine(result);
+        // this will reinitialize the Orders field, we will lost the orders that was added above
+        // => we don't want the Orders field be assigned multiple time => use readonly for it
+        customer.Promote();
+
+        Console.WriteLine(customer.Orders.Count);
     }
 
     static void UsePoint()
