@@ -6,7 +6,7 @@ public class Customer
     public string Name;
 
     // initialize
-    public List<Order> Orders = new List<Order>();
+    public readonly List<Order> Orders = new List<Order>();
 
     //first constructor
     public Customer(int id)
@@ -25,7 +25,6 @@ public class Customer
 
     public void Promote()
     {
-        this.Orders = new List<Order>();
         //...
     }
 }
