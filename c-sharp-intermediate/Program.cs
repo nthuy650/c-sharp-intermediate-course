@@ -4,8 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        UsePoint();
-        UseParams();
+        //UsePoint();
+        //UseParams();
+
+        int result;
+        var myNumber = int.TryParse("123", out result);
+        Console.WriteLine(myNumber);
+        Console.WriteLine(result);
     }
 
     static void UsePoint()
