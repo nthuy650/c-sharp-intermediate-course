@@ -4,19 +4,23 @@ class Program
 {
     static void Main(string[] args)
     {
-        try
-        {
-            var myPoint = new Point(1, 2);
-            myPoint.Move(null);
-            Console.WriteLine("My new point is in ({0}, {1})", myPoint.X, myPoint.Y);
 
-            myPoint.Move(new Point(20, 20));
-            Console.WriteLine("My new point is in ({0}, {1})", myPoint.X, myPoint.Y);
-
-        }
-        catch (Exception e)
+        static void UsePoint()
         {
-            Console.WriteLine("an unexpected error occured!");
+            try
+            {
+                var myPoint = new Point(1, 2);
+                myPoint.Move(null);
+                Console.WriteLine("My new point is in ({0}, {1})", myPoint.X, myPoint.Y);
+
+                myPoint.Move(new Point(20, 20));
+                Console.WriteLine("My new point is in ({0}, {1})", myPoint.X, myPoint.Y);
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("an unexpected error occured!");
+            }
         }
     }
 }
