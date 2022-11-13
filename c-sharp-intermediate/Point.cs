@@ -22,7 +22,10 @@ public class Point
     //move method overloadding
     public void Move(Point point)
     {
-        this.X = point.X;
-        this.Y = point.Y;
+        if (point == null)
+        {
+            throw new ArgumentNullException("point");
+        }
+        this.Move(point.X, point.Y);
     }
 }
