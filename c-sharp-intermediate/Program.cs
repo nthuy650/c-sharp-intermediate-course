@@ -4,8 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        var person = new Person(new DateTime(1999, 10, 20));
-        Console.WriteLine(person.Age);
+        var cookie = new HttpCookie();
+        cookie["name"] = "Mosh";
+        Console.WriteLine(cookie["name"]);
     }
 
     static void UsePoint()
