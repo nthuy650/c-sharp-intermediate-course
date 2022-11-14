@@ -4,8 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var person = new Person();
-        person.Birthdate = new DateTime(1999, 10, 20);
+        var person = new Person(new DateTime(1999, 10, 20));
         Console.WriteLine(person.Age);
     }
 
