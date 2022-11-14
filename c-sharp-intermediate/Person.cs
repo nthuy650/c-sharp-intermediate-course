@@ -2,15 +2,18 @@
 
 public class Person
 {
-    private DateTime _birthdate;
+    // this will create Birthdate property
+    // Birthdate property == create private _birthdate field with getter and setter
+    public DateTime Birthdate { get; set; }
 
-    public void SetBirthDate(DateTime birthdate)
-    {
-        _birthdate = birthdate;
-    }
+    // create Age property based on Birthdate property
+    public int Age {
+        get
+        {
+            var timeSpan = DateTime.Today - Birthdate;
+            var years = timeSpan.Days / 365;
 
-    public DateTime GetBirthDate()
-    {
-        return _birthdate;
+            return years;
+        }
     }
 }

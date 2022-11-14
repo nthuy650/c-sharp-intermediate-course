@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         var person = new Person();
-        person.SetBirthDate(new DateTime(1999, 10, 20));
-        Console.WriteLine(person.GetBirthDate());
+        person.Birthdate = new DateTime(1999, 10, 20);
+        Console.WriteLine(person.Age);
     }
 
     static void UsePoint()
